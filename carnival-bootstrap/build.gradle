@@ -1,4 +1,11 @@
-
+jar {
+  manifest {
+    attributes(
+      "Manifest-Version": 1.0,
+      'Main-Class': 'com.mirs.minirpc.App'
+    )
+  }
+}
 dependencies {
 
 }
